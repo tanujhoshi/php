@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    flex-direction: row;
+
+}
+header{
+    background-color: #1A2E35;
+    text-align: center;
+    padding: 1vh 0;
+}
+.textcolor{
+    color: #E5E5E5;
+}
+#sideframe{
+    background-color: #1F5F61;
+    border: none;
+    position: fixed;
+    width: 25vw;
+    height: 100%;
+}
+#mainframe{
+    position: fixed;
+    border: none;
+    left:25vw;
+    width: 75vw;
+    height: 100%;
+}
